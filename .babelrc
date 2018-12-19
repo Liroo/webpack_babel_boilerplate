@@ -4,13 +4,14 @@
       "module-resolver",
       {
         "root": [
-          "./src"
+          "./src",
         ],
         "alias": {
-          "test": "./test",
-          "underscore": "lodash"
-        }
-      }
-    ]
-  ]
+          "font": "./src/font",
+          "img": "./src/img",
+          "style": "./src/style",
+        },
+      },
+    ],
+  ],
 }
