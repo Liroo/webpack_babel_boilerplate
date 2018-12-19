@@ -60,7 +60,6 @@ a:hover, a:focus, a:visited, a:link, a:active {
   background: white;
   flex-direction: column;
   padding: 100px;
-  border: 1px solid black;
   justify-content: center;
   align-items: center;
 }
