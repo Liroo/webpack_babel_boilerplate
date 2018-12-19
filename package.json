@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --mode development",
-    "build": "NODE_ENV=production node_modules/.bin/webpack --config webpack.config.js --mode production"
+    "build": "NODE_ENV=production node_modules/.bin/webpack --config webpack.config.js --mode production; cp -r dist/ docs/"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
