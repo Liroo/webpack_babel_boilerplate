@@ -1,10 +1,11 @@
-import 'style/index.css';
+console.log(`%cWebsite made by Studio Push 💿 (https://studio-push.com/) 💿`, 'font-family: Raleway, Georgia;font-size: 20px; color: black');
+
+import '../style/index.scss';
 
 import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
 
-console.log(`%cWebsite made by Studio Push 💿 (https://studio-push.com/) 💿`, 'font-family: Raleway, Georgia;font-size: 20px; color: black');
 
 $(function () {
 
